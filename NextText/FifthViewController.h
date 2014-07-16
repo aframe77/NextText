@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  FifthViewController.h
 //  NextText
 //
 //  Created by admin on 6/10/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface FifthViewController : UIViewController
 
 @end

@@ -22,6 +22,11 @@
 		8418E80F19474CBD0058CD8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8418E7EE19474CBC0058CD8C /* UIKit.framework */; };
 		8418E81719474CBD0058CD8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8418E81519474CBD0058CD8C /* InfoPlist.strings */; };
 		8418E81919474CBD0058CD8C /* NextTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8418E81819474CBD0058CD8C /* NextTextTests.m */; };
+		8418E824194757E30058CD8C /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8418E823194757E30058CD8C /* ThirdViewController.m */; };
+		8418E82A19475BBE0058CD8C /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8418E82919475BBE0058CD8C /* FourthViewController.m */; };
+		8418E82D19475D680058CD8C /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8418E82C19475D680058CD8C /* FifthViewController.m */; };
+		8418E8301951F2BF0058CD8C /* SixthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8418E82F1951F2BF0058CD8C /* SixthViewController.m */; };
+		8418E83319561B550058CD8C /* SeventhViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8418E83219561B550058CD8C /* SeventhViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,17 +50,27 @@
 		8418E7F819474CBC0058CD8C /* NextText-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NextText-Prefix.pch"; sourceTree = "<group>"; };
 		8418E7F919474CBC0058CD8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8418E7FA19474CBC0058CD8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8418E7FD19474CBC0058CD8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8418E7FD19474CBC0058CD8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8418E7FF19474CBC0058CD8C /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		8418E80019474CBC0058CD8C /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		8418E80219474CBC0058CD8C /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		8418E80319474CBC0058CD8C /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		8418E80519474CBD0058CD8C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		8418E80B19474CBD0058CD8C /* NextTextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NextTextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8418E80519474CBD0058CD8C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images.xcassets; sourceTree = "<group>"; };
+		8418E80B19474CBD0058CD8C /* NextTextTests */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = NextTextTests; sourceTree = BUILT_PRODUCTS_DIR; };
 		8418E80C19474CBD0058CD8C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8418E81419474CBD0058CD8C /* NextTextTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NextTextTests-Info.plist"; sourceTree = "<group>"; };
 		8418E81619474CBD0058CD8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8418E81819474CBD0058CD8C /* NextTextTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextTextTests.m; sourceTree = "<group>"; };
+		8418E822194757E30058CD8C /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		8418E823194757E30058CD8C /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		8418E82819475BBE0058CD8C /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		8418E82919475BBE0058CD8C /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		8418E82B19475D680058CD8C /* FifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthViewController.h; sourceTree = "<group>"; };
+		8418E82C19475D680058CD8C /* FifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthViewController.m; sourceTree = "<group>"; };
+		8418E82E1951F2BF0058CD8C /* SixthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SixthViewController.h; path = ../SixthViewController.h; sourceTree = "<group>"; };
+		8418E82F1951F2BF0058CD8C /* SixthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SixthViewController.m; path = ../SixthViewController.m; sourceTree = "<group>"; };
+		8418E83119561B550058CD8C /* SeventhViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeventhViewController.h; sourceTree = "<group>"; };
+		8418E83219561B550058CD8C /* SeventhViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeventhViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				8418E7E719474CBC0058CD8C /* NextText.app */,
-				8418E80B19474CBD0058CD8C /* NextTextTests.xctest */,
+				8418E80B19474CBD0058CD8C /* NextTextTests */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,6 +139,16 @@
 				8418E80319474CBC0058CD8C /* SecondViewController.m */,
 				8418E80519474CBD0058CD8C /* Images.xcassets */,
 				8418E7F119474CBC0058CD8C /* Supporting Files */,
+				8418E822194757E30058CD8C /* ThirdViewController.h */,
+				8418E823194757E30058CD8C /* ThirdViewController.m */,
+				8418E82819475BBE0058CD8C /* FourthViewController.h */,
+				8418E82919475BBE0058CD8C /* FourthViewController.m */,
+				8418E82B19475D680058CD8C /* FifthViewController.h */,
+				8418E82C19475D680058CD8C /* FifthViewController.m */,
+				8418E82E1951F2BF0058CD8C /* SixthViewController.h */,
+				8418E82F1951F2BF0058CD8C /* SixthViewController.m */,
+				8418E83119561B550058CD8C /* SeventhViewController.h */,
+				8418E83219561B550058CD8C /* SeventhViewController.m */,
 			);
 			path = NextText;
 			sourceTree = "<group>";
@@ -192,7 +217,7 @@
 			);
 			name = NextTextTests;
 			productName = NextTextTests;
-			productReference = 8418E80B19474CBD0058CD8C /* NextTextTests.xctest */;
+			productReference = 8418E80B19474CBD0058CD8C /* NextTextTests */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -254,10 +279,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8418E82A19475BBE0058CD8C /* FourthViewController.m in Sources */,
 				8418E80419474CBC0058CD8C /* SecondViewController.m in Sources */,
+				8418E824194757E30058CD8C /* ThirdViewController.m in Sources */,
 				8418E7FB19474CBC0058CD8C /* AppDelegate.m in Sources */,
+				8418E83319561B550058CD8C /* SeventhViewController.m in Sources */,
 				8418E80119474CBC0058CD8C /* FirstViewController.m in Sources */,
+				8418E82D19475D680058CD8C /* FifthViewController.m in Sources */,
 				8418E7F719474CBC0058CD8C /* main.m in Sources */,
+				8418E8301951F2BF0058CD8C /* SixthViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +492,7 @@
 				8418E81E19474CBD0058CD8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8418E81F19474CBD0058CD8C /* Build configuration list for PBXNativeTarget "NextTextTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +501,7 @@
 				8418E82119474CBD0058CD8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

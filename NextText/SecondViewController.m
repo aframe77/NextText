@@ -3,7 +3,7 @@
 //  NextText
 //
 //  Created by admin on 6/10/14.
-//  Copyright (c) 2014 ___FULLUSERNAME___. All rights reserved.
+//  Copyright (c) 2014 admin. All rights reserved.
 //
 
 #import "SecondViewController.h"

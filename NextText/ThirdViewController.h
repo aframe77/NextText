@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  ThirdViewController.h
 //  NextText
 //
 //  Created by admin on 6/10/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface ThirdViewController : UIViewController
 
 @end
